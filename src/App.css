@@ -1,0 +1,36 @@
+.container{
+  margin: auto;
+  max-width: 800px;
+
+}
+
+body{
+  background-color: #292929;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 7px 1px #222121;
+  padding: 15px;
+  margin:8px;
+}
+.item img{
+  height: 25px;
+}
+  .item button{
+    background: none;
+    border: none;
+  }
